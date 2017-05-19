@@ -11,5 +11,5 @@ cp -r .bacon ~/
 ```
 * Add this line at the end of your .bashrc file :
 ```bash
-source .bacon/*
+echo -e "# BaCon. See https://github.com/julienb54/bacon for documentation\nsource .bacon/*" >> ~/.bashrc
 ```
