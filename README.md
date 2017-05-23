@@ -1,15 +1,18 @@
 # BaCon
-*Inspired from rkirti/bashrc for the separation of concerns*
+*Inspired by rkirti/bashrc for the separation of concerns*
 
 BaCon - bashrc configuration for developer
 
 To use it, proceed like this :
 
-* Copy .bacon in your home folder :
+* Add rights to install.sh :
 ```bash
-cp -r .bacon ~/
+chmod u+x install.sh
 ```
-* Add this line at the end of your .bashrc file :
+* Run install.sh
 ```bash
-echo -e "# BaCon. See https://github.com/julienb54/bacon for documentation\nsource .bacon/*" >> ~/.bashrc
+./install.sh
 ```
+
+It will copy the folder .bacon into your home directory, add source .bacon/* at the end of your .bashrc file 
+and source your .bashrc to use it right away 
